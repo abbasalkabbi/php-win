@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--bootstrap css -->
+    <link href="./style/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/core.css" />
+    <title>win</title>
+  </head>
+  <body class="bg-gradient bg-light">
+    <!--container--->
+    <div class="container">
+      <!-- Content here -->
+      <div class="col-md-5 p-lg-5 mx-auto my-5 text-center shadow">
+        <img
+          src="./images/myimage.jpg"
+          class="img-fluid img-thumbnail"
+          alt="..."
+        />
+
+        <h1 class="display-4 fw-normal fs-1">win</h1>
+        <p class="lead fw-normal fs-2">win with here name</p>
+      </div>
+      <!---form-->
+      <!--successful form-->
+      <div
+        class="form-floating mb-3 mt-3 p-3 mb-2 bg-primary text-white shadow-lg"
+        id="successful"
+      >
+        <h1 class="text-center">Successful</h1>
+      </div>
+      <!--END successful form-->
+      <form class="data">
+        <!-- Error form-->
+        <div
+          class="
+            form-floating
+            mb-3
+            mt-3
+            p-3
+            mb-2
+            bg-danger
+            text-white
+            shadow-lg
+          "
+          id="error"
+        >
+          <h1 class="text-center"></h1>
+        </div>
+        <!--END Error form-->
+
+        <!--- email -->
+        <div class="form-floating mb-3 mt-3 shadow">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <!--- ENd email -->
+        <!-- First name-->
+        <div class="form-floating mb-3 shadow">
+          <input
+            type="text"
+            name="firstname"
+            class="form-control"
+            id="firstname"
+            placeholder="First Name"
+          />
+          <label for="firstname">First Name</label>
+        </div>
+        <!-- END First name-->
+        <!-- Last  name-->
+        <div class="form-floating mb-3 shadow">
+          <input
+            type="text"
+            name="lastname"
+            class="form-control"
+            id="lastname"
+            placeholder="Last Name"
+          />
+          <label for="lastname">Last Name</label>
+        </div>
+        <!--END Last  name-->
+        <!---submit-->
+        <div class="d-grid gap-2">
+          <button
+            type="submit"
+            class="btn btn-primary text-center shadow-lg"
+            id="send"
+          >
+            Send
+          </button>
+        </div>
+        <!--end submit-->
+      </form>
+      <!---END form-->
+      <!-- users ParticiPants -->
+      <div class="users list-group list-group-numbered mt-5 mb-4">
+        <div
+          class="
+            form-floating
+            mb-1
+            mt-1
+            p-3
+            mb-2
+            bg-secondary
+            text-white
+            shadow-lg
+          "
+        >
+          <h1 class="text-center">ParticiPants</h1>
+        </div>
+      </div>
+    </div>
+    <!--End container-->
+    <!-- linke js -->
+    <!-- users data -->
+    <script src="./js/users.js"></script>
+    <!--- send data to php ==> mysqli-->
+    <script src="js/script.js"></script>
+
+    <!--bootstrap js -->
+  </body>
+</html>
